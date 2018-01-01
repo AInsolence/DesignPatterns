@@ -15,7 +15,6 @@ CurrentConditionDisplay::~CurrentConditionDisplay()
 
 void CurrentConditionDisplay::Display()
 {
-	Update();
 	std::cout << "Current weather: " << std::endl;
 	std::cout << "Temperature: " << Temperature << std::endl;
 	std::cout << "Humidity: " << Humidity << std::endl;
@@ -24,7 +23,9 @@ void CurrentConditionDisplay::Display()
 
 void CurrentConditionDisplay::Update()
 {
+	std::cout << "Update..." << std::endl;
 	Temperature = WeatherDataObject->GetTemperature();
 	Humidity = WeatherDataObject->GetHumidity();
 	Pressure = WeatherDataObject->GetPressure();
+	Display();
 }

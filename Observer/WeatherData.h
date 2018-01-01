@@ -1,5 +1,5 @@
 /*
-	Realize Subject element interface
+	Provide all observers with data from meteo sensors.
 */
 
 #pragma once

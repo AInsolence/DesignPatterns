@@ -1,5 +1,6 @@
 /*
-	Interface for the main subject.
+	Interface for the main subject, provides the possibility of 
+	registration and notification of observers.
 */
 
 #pragma once

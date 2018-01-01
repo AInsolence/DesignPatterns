@@ -10,6 +10,6 @@ class IObserver
 public:
 	IObserver();
 	virtual ~IObserver();
-	virtual void Update();
+	virtual void Update() = 0;
 };
 

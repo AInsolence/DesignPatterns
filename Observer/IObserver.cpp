@@ -10,7 +10,3 @@ IObserver::IObserver()
 IObserver::~IObserver()
 {
 }
-
-void IObserver::Update()
-{
-}
