@@ -25,4 +25,5 @@ int main()
 	std::cout << NewSoldier->FullArmorValue() << std::endl;
 
 	system("pause");
+	return 0;
 }
