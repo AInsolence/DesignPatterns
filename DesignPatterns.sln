@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strategy.vcxproj", "{A5B81AD2-049A-41D6-8D80-31369358446E}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactoryMethod", "FactoryMethod\FactoryMethod.vcxproj", "{6A231A08-76E0-4EA0-AC15-FAB5CD4F4CF8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactory", "AbstractFactory\AbstractFactory.vcxproj", "{E2A021A0-59EA-4B79-8A28-AF17DCD5E317}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singletone", "Singletone\Singletone.vcxproj", "{4E42B344-9EE0-439F-821F-D8A38F693F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{E2A021A0-59EA-4B79-8A28-AF17DCD5E317}.Release|x64.Build.0 = Release|x64
 		{E2A021A0-59EA-4B79-8A28-AF17DCD5E317}.Release|x86.ActiveCfg = Release|Win32
 		{E2A021A0-59EA-4B79-8A28-AF17DCD5E317}.Release|x86.Build.0 = Release|Win32
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Debug|x64.ActiveCfg = Debug|x64
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Debug|x64.Build.0 = Debug|x64
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Debug|x86.Build.0 = Debug|Win32
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Release|x64.ActiveCfg = Release|x64
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Release|x64.Build.0 = Release|x64
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Release|x86.ActiveCfg = Release|Win32
+		{4E42B344-9EE0-439F-821F-D8A38F693F36}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
