@@ -23,9 +23,6 @@ public:
 	ICommand* DButton;
 
 	void SetButton(Buttons button, ICommand* command);
-	void Press_A();
-	void Press_B();
-	void Press_C();
-	void Press_D();
+	void PressButton(Buttons button);
 };
 

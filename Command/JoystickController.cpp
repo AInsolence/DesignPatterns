@@ -19,37 +19,38 @@ void JoystickController::SetButton(Buttons button, ICommand * command)
 	{
 	case Buttons::A:
 		AButton = command;
+		break;
 	case Buttons::B:
 		BButton = command;
+		break;
 	case Buttons::C:
 		CButton = command;
+		break;
 	case Buttons::D:
 		DButton = command;
+		break;
 	default:
 		break;
 	}
 }
 
-void JoystickController::Press_A()
+void JoystickController::PressButton(Buttons button)
 {
-	std::cout << "Pressed A button..." << std::endl;
-	AButton->execute();
-}
-
-void JoystickController::Press_B()
-{
-	std::cout << "Pressed B button..." << std::endl;
-	BButton->execute();
-}
-
-void JoystickController::Press_C()
-{
-	std::cout << "Pressed C button..." << std::endl;
-	CButton->execute();
-}
-
-void JoystickController::Press_D()
-{
-	std::cout << "Pressed D button..." << std::endl;
-	DButton->execute();
+	switch (button)
+	{
+	case Buttons::A:
+		AButton->execute();
+		break;
+	case Buttons::B:
+		BButton->execute();
+		break;
+	case Buttons::C:
+		CButton->execute();
+		break;
+	case Buttons::D:
+		DButton->execute();
+		break;
+	default:
+		break;
+	}
 }
