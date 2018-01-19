@@ -6,5 +6,6 @@ public:
 	~ICommand();
 
 	virtual void execute() = 0;
+	virtual void undo();
 };
 

@@ -13,5 +13,7 @@ public:
 	void Jump();
 	void Hit();
 	void Defend();
+	void PickUpItem();
+	void ThrowItem();
 };
 
