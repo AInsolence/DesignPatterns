@@ -11,10 +11,11 @@ int main()
 	TV* MyTV = new TV();
 	DVDPlayer* MyDVD = new DVDPlayer();
 	// create adapter for dvd
-	TV* DVDPretendsTV = new TVStyleAdapter(MyDVD);
+	TVStyleAdapter* DVDPretendsTV = new TVStyleAdapter(MyDVD);
 	// check remote controller for TV
 	RemoteControler(MyTV);
 	RemoteControler(DVDPretendsTV);
+
 	// create Facade for all gadgets in one
 	Facade* facade = new Facade(MyTV, MyDVD);
 	facade->SeeTheFilm();
