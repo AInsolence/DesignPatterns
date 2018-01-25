@@ -1,6 +1,6 @@
 # DesignPatterns
 
-Examples of design patterns in C++ 11.
+Design patterns in C++ 11.
 Examples are based on the examples from the book "Head First Design Patterns".
 
 Link to the book: http://shop.oreilly.com/product/9780596007126.do
