@@ -10,7 +10,7 @@ If you want to see how the pattern works:
 1. See the source code
 2. To fully understand the work of the pattern, it is recommended to look at its UML diagram in the book or wikipedia.
 
-Start particular project:
+Start particular project in vs2017:
 1. Right-click on the desired project in the Solution Explorer
 2. Set as StartUp Project
 3. Compile and Run (F5)
