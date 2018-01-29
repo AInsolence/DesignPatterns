@@ -13,7 +13,7 @@ public:
 	virtual bool HasNext() override final;
 	virtual MenuItem* Next() override final;
 private:
-	DinerMenu* _DinerMenu;
-	int position = 0;
+	std::list<MenuItem*>* _DinerMenu;
+	std::list<MenuItem*>::iterator _position;
 };
 
