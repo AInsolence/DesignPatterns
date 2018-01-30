@@ -7,7 +7,7 @@ class DinerMenuIterator :
 	public IIterator
 {
 public:
-	DinerMenuIterator(DinerMenu* DinerMenu);
+	DinerMenuIterator(std::list<MenuItem*>* MenuItems);
 	~DinerMenuIterator();
 
 	virtual bool HasNext() override final;

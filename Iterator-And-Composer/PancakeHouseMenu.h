@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include "MenuItem.h"
+#include "PancakeMenuIterator.h"
 
 class PancakeHouseMenu
 {
@@ -10,7 +11,7 @@ public:
 
 	void AddItem(std::string Name, std::string	Description, 
 						bool Vegetarian, double Price);
-	std::vector<MenuItem*>* GetItems();
+	IIterator* CreateIterator();
 
 private:
 	std::vector<MenuItem*>* MenuItems;

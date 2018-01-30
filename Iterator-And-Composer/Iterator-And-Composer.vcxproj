@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{91CF39F6-5F2E-40D4-AD56-52DA56D0D33A}</ProjectGuid>
     <RootNamespace>IteratorAndComposer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -117,6 +117,7 @@
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="PancakeHouseMenu.h" />
     <ClInclude Include="PancakeMenuIterator.h" />
+    <ClInclude Include="Waitress.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DinerMenu.cpp" />
@@ -126,6 +127,7 @@
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="PancakeHouseMenu.cpp" />
     <ClCompile Include="PancakeMenuIterator.cpp" />
+    <ClCompile Include="Waitress.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

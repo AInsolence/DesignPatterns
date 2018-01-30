@@ -6,7 +6,7 @@ class PancakeMenuIterator :
 	public IIterator
 {
 public:
-	PancakeMenuIterator(PancakeHouseMenu* PancakeMenu);
+	PancakeMenuIterator(std::vector<MenuItem*>* MenuItems);
 	virtual ~PancakeMenuIterator();
 
 	virtual bool HasNext() override final;

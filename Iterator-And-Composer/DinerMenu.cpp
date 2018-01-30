@@ -23,7 +23,8 @@ void DinerMenu::AddItem(std::string Name, std::string Description, bool Vegetari
 	MenuItems->push_back(new MenuItem(Name, Description, Vegetarian, Price));
 }
 
-std::list<MenuItem*>* DinerMenu::GetItems()
+IIterator* DinerMenu::CreateIterator()
 {
-	return MenuItems;
+	IIterator* DinerIterator = new DinerMenuIterator(MenuItems);
+	return DinerIterator;
 }

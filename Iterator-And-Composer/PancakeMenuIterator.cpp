@@ -2,9 +2,9 @@
 
 
 
-PancakeMenuIterator::PancakeMenuIterator(PancakeHouseMenu* PancakeMenu)
+PancakeMenuIterator::PancakeMenuIterator(std::vector<MenuItem*>* MenuItems)
 {
-	_PancakeMenu = PancakeMenu->GetItems();
+	_PancakeMenu = MenuItems;
 	_position = 0;
 }
 
@@ -21,7 +21,7 @@ bool PancakeMenuIterator::HasNext()
 	}
 	else
 	{
-		return false;
+		return true;
 	}
 }
 

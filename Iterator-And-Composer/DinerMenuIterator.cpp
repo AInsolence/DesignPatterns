@@ -2,9 +2,9 @@
 
 
 
-DinerMenuIterator::DinerMenuIterator(DinerMenu* DinerMenu)
+DinerMenuIterator::DinerMenuIterator(std::list<MenuItem*>* MenuItems)
 {
-	_DinerMenu = DinerMenu->GetItems();
+	_DinerMenu = MenuItems;
 	_position = _DinerMenu->begin();
 }
 

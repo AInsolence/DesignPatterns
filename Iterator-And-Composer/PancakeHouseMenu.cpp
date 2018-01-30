@@ -22,7 +22,8 @@ void PancakeHouseMenu::AddItem(std::string Name, std::string	Description,
 	MenuItems->push_back(new MenuItem(Name, Description, Vegetarian, Price));
 }
 
-std::vector<MenuItem*>* PancakeHouseMenu::GetItems()
+IIterator* PancakeHouseMenu::CreateIterator()
 {
-	return MenuItems;
+	IIterator* BreakfestIterator = new PancakeMenuIterator(MenuItems);
+	return BreakfestIterator;
 }
