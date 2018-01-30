@@ -12,6 +12,7 @@ public:
 
 	virtual bool HasNext() override final;
 	virtual MenuItem* Next() override final;
+	virtual void Remove() override final;
 private:
 	std::list<MenuItem*>* _DinerMenu;
 	std::list<MenuItem*>::iterator _position;

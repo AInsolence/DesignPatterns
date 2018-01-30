@@ -9,5 +9,6 @@ public:
 
 	virtual bool HasNext() = 0;
 	virtual MenuItem* Next() = 0;
+	virtual void Remove() = 0;
 };
 

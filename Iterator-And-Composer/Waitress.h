@@ -6,7 +6,7 @@
 class Waitress
 {
 public:
-	Waitress(PancakeHouseMenu* PancakeMenu, DinerMenu* DinerMenu);
+	Waitress(IMenu* PancakeMenu, IMenu* DinerMenu);
 	~Waitress();
 
 	void PrintMenu();

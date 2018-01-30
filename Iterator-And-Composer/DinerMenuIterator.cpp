@@ -31,3 +31,7 @@ MenuItem* DinerMenuIterator::Next()
 	_position++;
 	return item;
 }
+
+void DinerMenuIterator::Remove()
+{
+}

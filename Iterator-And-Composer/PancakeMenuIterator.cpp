@@ -31,3 +31,7 @@ MenuItem * PancakeMenuIterator::Next()
 	_position++;
 	return item;
 }
+
+void PancakeMenuIterator::Remove()
+{
+}

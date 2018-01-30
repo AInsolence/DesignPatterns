@@ -2,7 +2,7 @@
 
 
 
-Waitress::Waitress(PancakeHouseMenu* PancakeMenu, DinerMenu* DinerMenu)
+Waitress::Waitress(IMenu* PancakeMenu, IMenu* DinerMenu)
 {
 	DinerIter = DinerMenu->CreateIterator();
 	PancakeIter = PancakeMenu->CreateIterator();

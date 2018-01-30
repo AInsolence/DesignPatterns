@@ -11,6 +11,7 @@ public:
 
 	virtual bool HasNext() override final;
 	virtual MenuItem* Next() override final;
+	virtual void Remove() override final;
 
 private:
 	std::vector<MenuItem*>* _PancakeMenu;
