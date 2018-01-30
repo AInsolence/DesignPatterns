@@ -1,7 +1,5 @@
 #include "PancakeHouseMenu.h"
 
-
-
 PancakeHouseMenu::PancakeHouseMenu()
 {
 	MenuItems = new std::vector<MenuItem*>;
@@ -10,7 +8,6 @@ PancakeHouseMenu::PancakeHouseMenu()
 	AddItem("Blueberry Pancakes", "Description", true, 3.99);
 	AddItem("Waffles", "Description", true, 1.99);
 }
-
 
 PancakeHouseMenu::~PancakeHouseMenu()
 {

@@ -11,4 +11,3 @@ public:
 		bool Vegetarian, double Price) = 0;
 	virtual IIterator* CreateIterator() = 0;
 };
-

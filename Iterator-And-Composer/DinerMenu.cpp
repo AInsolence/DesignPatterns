@@ -1,7 +1,5 @@
 #include "DinerMenu.h"
 
-
-
 DinerMenu::DinerMenu()
 {
 	MenuItems = new std::list<MenuItem*>;
