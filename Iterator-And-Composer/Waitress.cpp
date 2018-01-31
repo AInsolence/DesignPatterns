@@ -2,10 +2,11 @@
 
 
 
-Waitress::Waitress(IMenu* PancakeMenu, IMenu* DinerMenu)
+Waitress::Waitress(IMenu* PancakeMenu, IMenu* DinerMenu, IMenu* CafeMenu)
 {
 	DinerIter = DinerMenu->CreateIterator();
 	PancakeIter = PancakeMenu->CreateIterator();
+	CafeIter = CafeMenu->CreateIterator();
 }
 
 
@@ -17,6 +18,7 @@ void Waitress::PrintMenu()
 {
 	PrintBreakfestMenu();
 	PrintLunchMenu();
+	PrintCafeMenu();
 }
 
 void Waitress::PrintMenu(IIterator* Iterator)
@@ -42,6 +44,12 @@ void Waitress::PrintLunchMenu()
 {
 	std::cout << "LUNCH MENU: \n" << std::endl;
 	PrintMenu(DinerIter);
+}
+
+void Waitress::PrintCafeMenu()
+{
+	std::cout << "CAFE MENU: \n" << std::endl;
+	PrintMenu(CafeIter);
 }
 
 void Waitress::PrintVegeterianMenu()

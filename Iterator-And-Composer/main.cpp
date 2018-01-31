@@ -5,7 +5,8 @@ int main()
 {
 	DinerMenu* Diner = new DinerMenu();
 	PancakeHouseMenu* Breakfest = new PancakeHouseMenu();
-	Waitress* Bonny = new Waitress(Breakfest, Diner);
+	CafeMenu* Cafe = new CafeMenu();
+	Waitress* Bonny = new Waitress(Breakfest, Diner, Cafe);
 	Bonny->PrintMenu();
 
 	system("pause");
