@@ -35,3 +35,15 @@ bool MenuItem::isVegetarian()
 {
 	return _Vegetarian;
 }
+
+void MenuItem::Print()
+{
+	if (isVegetarian())
+	{
+		std::cout << "Vegetarian" << std::endl;
+	}
+	std::cout << GetName() << std::endl;
+	std::cout << GetDescription() << std::endl;
+	std::cout << GetPrice() << std::endl;
+	std::cout << std::endl;
+}

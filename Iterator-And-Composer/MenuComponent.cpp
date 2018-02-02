@@ -51,7 +51,7 @@ bool MenuComponent::isVegetarian()
 	return false;
 }
 
-void MenuComponent::print()
+void MenuComponent::Print()
 {
 	std::cout << "Unsupported operation for this type of menu component." << std::endl;
 }

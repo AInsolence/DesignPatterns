@@ -16,6 +16,6 @@ public:
 	virtual std::string GetDescription();
 	virtual double GetPrice();
 	virtual bool isVegetarian();
-	virtual void print();
+	virtual void Print();
 };
 
