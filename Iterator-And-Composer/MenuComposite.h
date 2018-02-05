@@ -1,6 +1,6 @@
 #pragma once
 #include "MenuComponent.h"
-#include <list>
+#include <vector>
 #include <string>
 #include <algorithm>
 #include <iostream>
@@ -22,6 +22,6 @@ public:
 private:
 	std::string _Name;
 	std::string _Description;
-	std::list<MenuComponent*>* MenuContainer;
+	std::vector<MenuComponent*> MenuContainer;
 };
 
