@@ -11,12 +11,12 @@ MenuComponent::~MenuComponent()
 {
 }
 
-void MenuComponent::Add(const MenuComponent * menuComponent)
+void MenuComponent::Add(MenuComponent * menuComponent)
 {
 	std::cout << "Unsupported operation for this type of menu component." << std::endl;
 }
 
-void MenuComponent::Remove(const MenuComponent * menuComponent)
+void MenuComponent::Remove(MenuComponent * menuComponent)
 {
 	std::cout << "Unsupported operation for this type of menu component." << std::endl;
 }

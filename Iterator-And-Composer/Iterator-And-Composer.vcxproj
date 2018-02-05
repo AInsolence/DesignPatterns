@@ -118,6 +118,7 @@
     <ClInclude Include="IIterator.h" />
     <ClInclude Include="IMenu.h" />
     <ClInclude Include="MenuComponent.h" />
+    <ClInclude Include="MenuComposite.h" />
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="PancakeHouseMenu.h" />
     <ClInclude Include="PancakeMenuIterator.h" />
@@ -132,6 +133,7 @@
     <ClCompile Include="IMenu.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuComponent.cpp" />
+    <ClCompile Include="MenuComposite.cpp" />
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="PancakeHouseMenu.cpp" />
     <ClCompile Include="PancakeMenuIterator.cpp" />

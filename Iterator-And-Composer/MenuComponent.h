@@ -8,8 +8,8 @@ public:
 	MenuComponent();
 	virtual ~MenuComponent();
 	// Composite element methods
-	virtual void Add(const MenuComponent*  menuComponent );
-	virtual void Remove(const MenuComponent* menuComponent);
+	virtual void Add(MenuComponent*  menuComponent );
+	virtual void Remove(MenuComponent* menuComponent);
 	virtual MenuComponent* GetChild(int ItemNumber);
 	// Methods for menu Items
 	virtual std::string GetName();
