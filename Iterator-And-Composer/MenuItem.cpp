@@ -47,3 +47,13 @@ void MenuItem::Print()
 	std::cout << GetPrice() << std::endl;
 	std::cout << std::endl;
 }
+
+IIterator * MenuItem::createIterator()
+{
+	return new NullIterator();
+}
+
+bool MenuItem::IsCompositeComponent()
+{
+	return false;
+}

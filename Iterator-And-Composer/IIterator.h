@@ -1,5 +1,7 @@
 #pragma once
-#include "MenuItem.h"
+#include "MenuComponent.h"
+
+class MenuComponent;
 
 class IIterator
 {
@@ -8,7 +10,7 @@ public:
 	~IIterator();
 
 	virtual bool HasNext() = 0;
-	virtual MenuItem* Next() = 0;
+	virtual MenuComponent* Next() = 0;
 	virtual void Remove() = 0;
 };
 

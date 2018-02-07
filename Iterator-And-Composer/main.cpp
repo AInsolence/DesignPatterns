@@ -1,6 +1,7 @@
 #include <iostream>
 #include "MenuItem.h"
 #include "Waitress.h"
+#include "ComponentIterator.h"
 
 int main()
 {// Create all menus wrapper
@@ -42,6 +43,21 @@ int main()
 
 	Waitress* Bonny = new Waitress(AllMenus);
 	Bonny->PrintMenu();
+
+	IIterator* iterator = AllMenus->createIterator();
+	if (iterator == nullptr) std::cout << "Crash here!" << std::endl;
+	while (iterator->HasNext())
+	{
+			MenuComponent* component = iterator->Next();
+
+			if (!component->IsCompositeComponent())
+			{
+				if (component->isVegetarian())
+				{
+					std::cout << component->GetName() << " *** ";
+				}
+			}
+	}
 
 	system("pause");
 	return 0;

@@ -6,6 +6,7 @@ MenuComposite::MenuComposite(std::string Name, std::string Description)
 {
 	_Name = Name;
 	_Description = Description;
+	iterator = nullptr;
 }
 
 
@@ -20,8 +21,8 @@ void MenuComposite::Add(MenuComponent * menuComponent)
 
 void MenuComposite::Remove(MenuComponent * menuComponent)
 {
-	//MenuContainer->erase(std::remove(MenuContainer->begin(), MenuContainer->end(),
-		//menuComponent), MenuContainer->end());
+	MenuContainer.erase(std::remove(MenuContainer.begin(), MenuContainer.end(),
+		menuComponent), MenuContainer.end());
 }
 
 MenuComponent* MenuComposite::GetChild(int ItemNumber)
@@ -47,4 +48,18 @@ void MenuComposite::Print()
 	{
 		item->Print();
 	}
+}
+
+IIterator* MenuComposite::createIterator()
+{
+	if (iterator == nullptr)
+	{
+		iterator = new ComponentIterator(new MenuIterator(MenuContainer));
+	}
+	return iterator;
+}
+
+bool MenuComposite::IsCompositeComponent()
+{
+	return true;
 }

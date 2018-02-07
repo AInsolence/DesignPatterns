@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{91CF39F6-5F2E-40D4-AD56-52DA56D0D33A}</ProjectGuid>
     <RootNamespace>IteratorAndComposer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -111,32 +111,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CafeMenu.h" />
-    <ClInclude Include="CafeMenuIterator.h" />
-    <ClInclude Include="DinerMenu.h" />
-    <ClInclude Include="DinerMenuIterator.h" />
+    <ClInclude Include="ComponentIterator.h" />
     <ClInclude Include="IIterator.h" />
-    <ClInclude Include="IMenu.h" />
     <ClInclude Include="MenuComponent.h" />
     <ClInclude Include="MenuComposite.h" />
     <ClInclude Include="MenuItem.h" />
-    <ClInclude Include="PancakeHouseMenu.h" />
-    <ClInclude Include="PancakeMenuIterator.h" />
+    <ClInclude Include="MenuIterator.h" />
+    <ClInclude Include="NullIterator.h" />
     <ClInclude Include="Waitress.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CafeMenu.cpp" />
-    <ClCompile Include="CafeMenuIterator.cpp" />
-    <ClCompile Include="DinerMenu.cpp" />
-    <ClCompile Include="DinerMenuIterator.cpp" />
+    <ClCompile Include="ComponentIterator.cpp" />
     <ClCompile Include="IIterator.cpp" />
-    <ClCompile Include="IMenu.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuComponent.cpp" />
     <ClCompile Include="MenuComposite.cpp" />
     <ClCompile Include="MenuItem.cpp" />
-    <ClCompile Include="PancakeHouseMenu.cpp" />
-    <ClCompile Include="PancakeMenuIterator.cpp" />
+    <ClCompile Include="MenuIterator.cpp" />
+    <ClCompile Include="NullIterator.cpp" />
     <ClCompile Include="Waitress.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

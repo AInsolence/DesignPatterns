@@ -1,5 +1,6 @@
 #pragma once
 #include "MenuComponent.h"
+#include "NullIterator.h"
 #include <string>
 
 class MenuItem : public MenuComponent
@@ -12,6 +13,8 @@ public:
 	virtual double GetPrice() override final;
 	virtual bool isVegetarian() override final;
 	virtual void Print() override final;
+	virtual IIterator* createIterator() override final;
+	virtual bool IsCompositeComponent() override final;
 
 private:
 	std::string _Name;
