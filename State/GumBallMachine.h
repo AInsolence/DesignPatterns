@@ -23,6 +23,7 @@ public:
 	void EjectQuarter();
 	void TurnCrank();
 	void ReleaseBall();
+	void Refill(int GumBalls);
 
 private:
 	int _CountBalls;

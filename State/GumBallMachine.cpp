@@ -60,6 +60,15 @@ void GumBallMachine::ReleaseBall()
 	}
 }
 
+void GumBallMachine::Refill(int GumBalls)
+{
+	_CountBalls += GumBalls;
+	if (_CountBalls > 0)
+	{
+		SetState(this->GetNoQuarterState());
+	}
+}
+
 IState * GumBallMachine::GetNoQuarterState()
 {
 	return _NoQuarterState;
