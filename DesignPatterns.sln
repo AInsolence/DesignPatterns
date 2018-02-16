@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strategy.vcxproj", "{A5B81AD2-049A-41D6-8D80-31369358446E}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "State", "State\State.vcxproj", "{70404AAC-A017-44DA-AD5E-D7E9552E7EF3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{D430246F-61EF-4D8A-97E1-A88A95DCC2FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiPatternDesign", "MultiPatternDesign\MultiPatternDesign.vcxproj", "{8F003533-07A4-46B8-A272-DE58F07B46B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,14 @@ Global
 		{D430246F-61EF-4D8A-97E1-A88A95DCC2FA}.Release|x64.Build.0 = Release|x64
 		{D430246F-61EF-4D8A-97E1-A88A95DCC2FA}.Release|x86.ActiveCfg = Release|Win32
 		{D430246F-61EF-4D8A-97E1-A88A95DCC2FA}.Release|x86.Build.0 = Release|Win32
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Debug|x64.ActiveCfg = Debug|x64
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Debug|x64.Build.0 = Debug|x64
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Debug|x86.Build.0 = Debug|Win32
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Release|x64.ActiveCfg = Release|x64
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Release|x64.Build.0 = Release|x64
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Release|x86.ActiveCfg = Release|Win32
+		{8F003533-07A4-46B8-A272-DE58F07B46B6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
