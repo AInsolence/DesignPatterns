@@ -137,6 +137,9 @@
     <ClCompile Include="TalkingBehaviour.cpp" />
     <ClCompile Include="WeaponBehaviour.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Strategy Pattern.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
