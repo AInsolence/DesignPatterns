@@ -127,6 +127,9 @@
     <ClInclude Include="Guardian.h" />
     <ClInclude Include="IEnemyActor.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="SimpleFactory.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
