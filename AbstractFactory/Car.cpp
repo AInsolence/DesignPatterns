@@ -3,6 +3,7 @@
 Car::Car(ITransportPartsAbstractFactory* Factory)
 {
 	std::cout << "Hello! I'm a brand new car!" << std::endl;
+	// !NOTE: all parts created by Factory is appropriate to each other
 	_Engine = Factory->CreateEngine();
 	_Gear = Factory->CreateGear();
 	_Case = Factory->CreateCase();
