@@ -4,10 +4,10 @@
 
 int main()
 {
-	ChicagoPizzaStore Chicago;
-	NYPizzaStore NewYork;
-	Chicago.OrderPizza(PizzaType::Cheese);
-	NewYork.OrderPizza(PizzaType::Cheese);
+	PizzaStore* Chicago = new ChicagoPizzaStore();
+	PizzaStore* NewYork = new NYPizzaStore();
+	Chicago->OrderPizza(PizzaType::Cheese);
+	NewYork->OrderPizza(PizzaType::Cheese);
 	
 	system("pause");
 	return 0;
