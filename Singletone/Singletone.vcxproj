@@ -123,6 +123,9 @@
     <ClInclude Include="SingletonChocoBoiler.h" />
     <ClInclude Include="SingletonRobot.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Singleton.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
