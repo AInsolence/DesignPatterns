@@ -16,12 +16,6 @@ enum class Buttons
 
 class JoystickController
 {
-public:
-	JoystickController();
-	JoystickController(ICommand* AButton, ICommand* BButton,
-							ICommand* CButton, ICommand* DButton);
-	~JoystickController();
-
 	ICommand* AButton;
 	ICommand* BButton;
 	ICommand* CButton;
@@ -29,6 +23,12 @@ public:
 	ICommand* LeftShift;
 	ICommand* RightShift;
 	ICommand* UndoButton;
+
+public:
+	JoystickController();
+	JoystickController(ICommand* AButton, ICommand* BButton,
+							ICommand* CButton, ICommand* DButton);
+	~JoystickController();
 
 	void SetButton(Buttons button, ICommand* command);
 	void PressButton(Buttons button);

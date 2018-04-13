@@ -123,6 +123,9 @@
     <ClCompile Include="TV.cpp" />
     <ClCompile Include="TVStyleAdapter.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Adapter&amp;Facade.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
