@@ -8,6 +8,8 @@ public:
 	~CaffeineBeverage();
 
 	virtual void MakeBeverage() final;
+
+protected:
 	virtual void BoilWater() final;
 	virtual void PourInCup() final;
 	virtual void Brew() = 0;

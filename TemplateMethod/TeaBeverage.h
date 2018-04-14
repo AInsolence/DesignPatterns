@@ -8,7 +8,7 @@ class TeaBeverage :
 public:
 	TeaBeverage();
 	~TeaBeverage();
-
+private:
 	virtual void Brew() override final;
 	virtual void AddCondiments() override final;
 };
